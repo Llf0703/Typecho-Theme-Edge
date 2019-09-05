@@ -1,8 +1,10 @@
-# Typecho Theme Edge
+**由于Pjax与自带反垃圾保护的冲突，请在 设置->评论 中关闭反垃圾保护！** 否则可能无法评论。推荐使用插件[smartspam](http://www.yovisun.com/archive/typecho-plugin-smartspam.html)
+
+[Github](https://github.com/Llf0703/Typecho-Theme-Edge)
 
 [镜像](https://git.llf0703.com/Llf0703/Typecho-Theme-Edge)（更快下载）
 
-[示例站点](https://llf0703.com)（为个人使用版，不完全相同，近期会上线主题预览站）
+[示例站点](https://edge.llf0703.com)
 
 ## Edge
 
@@ -20,11 +22,17 @@
 
 下载（或clone）后将文件夹命名为 `Typecho-Theme-Edge` ，然后放入 `/usr/themes/` 文件夹中，后台启用即可。
 
+然后需要在 设置->评论 中关闭反垃圾保护，否则可能无法评论。
+
 ## 设置
 
 ### 基础设置
 
 控制台->外观->设置外观，按照说明设置。
+
+### 文章归档独立页面
+
+新建独立页面，在 页面模板 中选择 `Archives` 。
 
 ### 导航栏左侧元素
 

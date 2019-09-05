@@ -19,7 +19,7 @@ $this->need('nav.php');
     </div>
 </header>
 <div class="mdui-container">
-    <div class="mdui-row card-first">
+    <div class="mdui-row">
         <div class="mdui-col-md-9 mdui-col-sm-12">
             <?php while($this->next()): ?>
             <?php $this->need('post-list.php'); ?>
